@@ -1,0 +1,198 @@
+@font-face {
+	font-family: montserrat_bold;
+	src: url(/fonts/Montserrat-Bold.ttf);
+}
+
+.scoreboard {
+	height: 100vh;
+	width: 100vw;
+	position: absolute;
+	left: 0;
+	right: 0;
+}
+
+body {
+    background: url(/images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+* {
+	
+	font-family: montserrat_bold;
+}
+
+.federation	{
+	background-color: #2A2D34;
+/*	display: flex; */
+	justify-content: center;
+	align-items: center;
+	padding: 0.5%;
+	height: 10vh;
+	display: none;
+}
+
+.federation img {
+	width: 3%;
+	border-radius: 50%;
+}
+
+.federation h1 {
+	margin: 0 0 0 2%;
+	font-size: 7vh;
+}
+
+.category {
+	background-color: #2274A5;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.2%;
+	height: 10vh;
+}
+
+.category h1 {
+	margin: 0 10%;
+	font-size: 7vh;
+}
+
+.category_name {
+	margin: 0 10%;
+	width: 25%;
+	font-size: 7vh;
+}
+
+.contestants {
+	background-color: rgba(42,45,52,0.8);
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	align-items: center;
+	padding: 0.2%;
+	height: 20vh;
+}
+
+.contestants h1 {
+	font-size: 7vh;
+	color: #FFF;
+}
+.nav input[type="submit"]:first-of-type {
+	background: #2274A5;	
+	opacity: 0!important;
+}
+
+.scores_div {
+	padding: 0 3%;
+	height: 60vh;
+}
+
+.country {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+.country img {
+	width: 10%;
+}
+
+.country h1 {
+	margin: 0 5%;
+	font-size: 7vh;
+}
+
+.scores {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 20vh;
+	width: 80%;
+	margin: auto;
+}
+
+.e,
+.a,
+.diff,
+.cjp {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.big_title {
+	color: #fff;
+	font-size: 7vh;
+	text-transform: uppercase;
+}
+
+.score_title {
+	color: #F26430;
+	font-size: 7vh;
+	padding: 0;
+}
+
+.total_score {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 20vh;
+}
+
+.total {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 0 8%;
+/*	padding: 3%;*/
+}
+
+.pass_title {
+	color: #fff;
+	text-transform: uppercase;
+	font-size: 7vh;
+}
+ 
+.pass_score {
+	color: #F26430;
+	font-size: 7vh;
+	padding: 0;
+}
+
+.place {
+	background-color: #2274A5;
+	height: 10vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.place h1 {
+	color: #fff;
+	font-size: 8vh;
+	text-transform: uppercase;
+}
+/*
+
+#rate {
+	display: none;
+}
+*/
+
+.rating {
+	z-index: 10;
+}
+
+.nav input {
+	background-color: transparent;
+}
+
+.page_title {
+	text-transform: uppercase;
+}
+
+.nav:hover input {
+	background-color: transparent !important; 
+}
